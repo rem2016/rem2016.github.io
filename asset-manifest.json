@@ -1,16 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.882825aa.chunk.css",
-    "main.js": "/static/js/main.23abc33b.chunk.js",
-    "main.js.map": "/static/js/main.23abc33b.chunk.js.map",
+    "main.css": "/static/css/main.8afb8a39.chunk.css",
+    "main.js": "/static/js/main.b64ce0e3.chunk.js",
+    "main.js.map": "/static/js/main.b64ce0e3.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.d45d53e2.chunk.js": "/static/js/2.d45d53e2.chunk.js",
-    "static/js/2.d45d53e2.chunk.js.map": "/static/js/2.d45d53e2.chunk.js.map",
+    "static/css/2.c6d3115f.chunk.css": "/static/css/2.c6d3115f.chunk.css",
+    "static/js/2.e074a19c.chunk.js": "/static/js/2.e074a19c.chunk.js",
+    "static/js/2.e074a19c.chunk.js.map": "/static/js/2.e074a19c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.795c79db6834c35194bf8aa1345384dc.js": "/precache-manifest.795c79db6834c35194bf8aa1345384dc.js",
+    "precache-manifest.db6280e4aa5a6e7df9f6300accf62a6c.js": "/precache-manifest.db6280e4aa5a6e7df9f6300accf62a6c.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.882825aa.chunk.css.map": "/static/css/main.882825aa.chunk.css.map",
-    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
+    "static/css/2.c6d3115f.chunk.css.map": "/static/css/2.c6d3115f.chunk.css.map",
+    "static/css/main.8afb8a39.chunk.css.map": "/static/css/main.8afb8a39.chunk.css.map",
+    "static/media/fudan.png": "/static/media/fudan.4e206805.png",
+    "static/media/ih_pj.png": "/static/media/ih_pj.5e561a23.png",
+    "static/media/me.jpg": "/static/media/me.e7bfec0c.jpg",
+    "static/media/me1.jpg": "/static/media/me1.0f2c4bd7.jpg",
+    "static/media/nav.svg": "/static/media/nav.bc8a6ec4.svg",
+    "static/media/poicare.png": "/static/media/poicare.3e761606.png",
+    "static/media/whu.jpg": "/static/media/whu.c5b973ef.jpg",
+    "static/media/xiaom.jpg": "/static/media/xiaom.1bd15943.jpg"
   }
 }
