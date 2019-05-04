@@ -16,9 +16,10 @@ import { Row, Col } from 'antd';
 const items = [
   { href: 'about', title: 'About' },
   { href: 'education', title: 'Education' },
-  { href: 'work-experience', title: 'Work Experience' },
+  { href: 'work-experience', title: 'Experience' },
   { href: 'projects', title: 'Projects' },
   { href: 'honors', title: 'Honors' },
+  { href: 'skills', title: 'Skills' },
   { href: 'personal', title: 'Personal' },
 ];
 
@@ -198,14 +199,14 @@ class DevHome extends React.Component {
                 <i>Dec. 2016 - Sep. 2017</i>
                 <h3>Intelligent Helmet</h3>
                 <p style={{ margin: 0 }}>
-                  An IoT device based on the helmet to help worker and the management on the constructionsite.  Won the first prize in 2017 TIIC National Undergraduate IOT Design Contest.  The mainfunctions of this project cover tumble detection (designed by us), voice command, indoorlocalization, live streaming and web visualization.
+                  An IoT device based on the helmet to help worker and the management on the constructionsite.  Won the <b>first prize (10/1500)</b> in 2017 TIIC National Undergraduate IOT Design Contest.  The mainfunctions of this project cover tumble detection (designed by us), voice command, indoorlocalization, live streaming and web visualization.
                   </p>
               </ProjectBlock>
               <ProjectBlock image={xiaom}>
                 <i>Jun. 2017 - Aug. 2017</i>
                 <h3>Intelligent Chatbot for Wuhan University</h3>
                 <p style={{ margin: 0 }}>
-                  A chatbot that serves students and tourists in the compus, based on NLP and ML.  Won the Second Prize (3/1100) in 2017 Beautyof Programming
+                  A chatbot that serves students and tourists in the compus, based on NLP and ML.  Won the <b>second prize (3/1100)</b> in 2017 Beautyof Programming
                 </p>
               </ProjectBlock>
             </div>
@@ -214,15 +215,23 @@ class DevHome extends React.Component {
               <h1 className="block-title">Hornors</h1>
               <ul>
                 <li>Award of Excellence, Stars of Tomorrow Internship Program, Microsoft Research Asia, 2018</li>
-                <li>First Prize (30/1500) & Google Innovation Award (10/1500) in Final Context, 2017 TI CupNational College Students’ Internet of Things Design Contest, 2017</li>
-                <li>Second Prize (3/1100) of the Beauty of Programming 2017 (Microsoft Research Asia & IEEE), 2017</li>
+                <li>First Prize <b>(30/1500)</b> & Google Innovation Award <b>(10/1500)</b> in Final Context, 2017 TI CupNational College Students’ Internet of Things Design Contest, 2017</li>
+                <li><b>Second Prize (3/1100)</b> of the Beauty of Programming 2017 (Microsoft Research Asia & IEEE), 2017</li>
                 <li>Wining Prize (10/104) of ”Citi Cup” Financial Innovation Application Competition, 2016</li>
                 <li>Third Prize of the Chinese Mathematics Competition, 2016</li>
                 <li>First & Third & Second class scholarship (Top 5% & 30% & 15%), Wuhan University, 2014-2017</li>
               </ul>
             </div>
 
-            <div className="home-block fullpage" id="personal" ref={this.blocks[5]}>
+            <div className="home-block" id="skills" ref={this.blocks[5]}>
+              <h1 className="block-title">Skills</h1>
+              <h2 className="block-subtitle">Machine Learning Related</h2>
+              <p>Sklearn, Pytorch, Pandas, Numpy, Keras</p>
+              <h2 className="block-subtitle">Programing Languages & Tools</h2>
+              <p>Python, JavaScript/TypeScript, C#, Java, C/C++, Git, React.js, D3.js, Vim</p>
+            </div>
+
+            <div className="home-block fullpage" id="personal" ref={this.blocks[6]}>
               <h1 className="block-title">Personal</h1>
               <div style={{padding: 10}}>
                 <p>
@@ -230,7 +239,17 @@ class DevHome extends React.Component {
                 </p>
                 <p>
                   I enjoy reading as much as I love movies. Below are my favorite.
+
                 </p>
+                <ul style={{ marginTop: 20 }}>
+                  <li>Sapiens: A Brief History of Humankind</li>
+                  <li>The Three-Body Problem</li>
+                  <li>Principles by Ray Dalio</li>
+                  <li>The story of your life</li>
+                  <li>Dune</li>
+                  <li>Game of Thrones</li>
+                  <li>Westworld</li>
+                </ul>
               </div>
             </div>
           </Col>

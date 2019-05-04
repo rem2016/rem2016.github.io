@@ -4,6 +4,13 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter } from 'react-router-dom';
+import WebFont from 'webfontloader';
+
+WebFont.load({
+    google: {
+        families: ['Saira Extra Condensed', 'Oswald']
+    }
+})
 
 ReactDOM.render(
     <BrowserRouter><App /></BrowserRouter>
