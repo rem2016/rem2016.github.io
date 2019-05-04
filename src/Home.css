@@ -4,12 +4,33 @@
         text-align: left;
         min-height: 100vh;
         position: relative;
+        padding-right: 10px;
+    }
+
+    .block-title {
+        font-size: 3.5em;
     }
 }
 
 @media (width > 520px) {
     .home-block {
         padding-left: 50px;
+        padding-right: 24px;
+        max-width: 600px;
+    }
+
+    .block-title {
+        font-size: 4.2em;
+    }
+}
+
+@media (width > 1200px) {
+    .home-block{
+        max-width: 780px;
+    }
+
+    .block-title {
+        font-size: 4.2em;
     }
 }
 
@@ -38,7 +59,6 @@ p {
 }
 
 .home-block {
-    max-width: 700px;
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: left;
@@ -50,7 +70,6 @@ p {
 }
 
 .block-title {
-    font-size: 4.2em;
     font-weight: 800;
     color: rgb(220, 90, 100);
     display: block;

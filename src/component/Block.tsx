@@ -33,8 +33,10 @@ class Block extends React.Component {
         const {smallScreen} = this.state;
         return (
             <div className="dis_block">
-                <img src={image} style={{ width, height, display: smallScreen? 'block':'inline-block' }} />
-                <div>
+                <div style={{width, height}}>
+                    <img src={image} style={{ width, height, display: smallScreen? 'block':'inline-block' }} />
+                </div>
+                <div className="dis_children">
                     {children}
                 </div>
             </div>
@@ -55,8 +57,14 @@ class ProjectBlock extends Block {
         const {smallScreen} = this.state;
         return (
             <div className="dis_block">
-                <img src={image} style={{ maxWidth: width, height, display: smallScreen? 'block':'inline-block' }} />
-                <div>
+                <div style={{width, height}}>
+                <img src={image} style={{
+                    height,
+                    width,
+                    display: smallScreen ? 'block' : 'inline-block',
+                }} />
+                </div>
+                <div className="dis_children">
                     {children}
                 </div>
             </div>
@@ -65,4 +73,4 @@ class ProjectBlock extends Block {
     }
 }
 
-export {Block, ProjectBlock};
+export { Block, ProjectBlock };

@@ -1,4 +1,4 @@
-@media (width < 420px) {
+@media (width < 350px) {
     .dis_block{
         padding: 40px 0 16px 0;
         min-height: 148px;
@@ -16,26 +16,45 @@
     }
 }
 
-@media (width > 420px){
+@media (width < 420px) {
+    .dis_block{
+        padding: 40px 0 16px 0;
+        min-height: 148px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 330px;
+        margin: 0 auto;
+    }
+    .dis_block .dis_children{
+        margin-top: 40px;
+        margin-left: 12px
+    }
+}
+
+@media (width >= 420px){
     .dis_block{
         padding: 12px 24px 12px 24px;
     }
 
-    .dis_block > div{
+    .dis_children{
         margin-left: 24px;
         float: left;
     }
 
 }
 
-.dis_block{
+.dis_block {
     min-height: 148px;
     border-radius: 5px;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    margin: 30px auto;
     display: flex;
     align-items: center;
 }
 
-.dis_block > p {
+.dis_block>p {
     margin-bottom: 0px;
 }
