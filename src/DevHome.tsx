@@ -246,6 +246,7 @@ class DevHome extends React.Component {
                   <li>The Three-Body Problem</li>
                   <li>Principles by Ray Dalio</li>
                   <li>The story of your life</li>
+                  <li>The Gods Themselves</li>
                   <li>Dune</li>
                   <li>Game of Thrones</li>
                   <li>Westworld</li>
