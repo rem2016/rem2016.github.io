@@ -31,7 +31,6 @@ class DevHome extends React.Component {
   smallScreen: boolean;
   prevY: number;
 
-
   constructor(props: React.Props<any>) {
     super(props);
     this.state = {
