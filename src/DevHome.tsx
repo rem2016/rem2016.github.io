@@ -10,6 +10,10 @@ import helmet from './res/ih_pj.png';
 import fudan_icon from './res/fudan.png';
 import poicare from './res/poicare.png';
 import xiaom from './res/xiaom.jpg';
+import fabric_labeling from './res/fabric_flaw_labeling.png';
+import ali_siamese from './res/AliBasedSiamese.png';
+import face_recognition from './res/FaceRecognition.png';
+import dqn from './res/DQN.png';
 import { Row, Col } from 'antd';
 
 
@@ -186,6 +190,34 @@ class DevHome extends React.Component {
 
             <div className="home-block" id="projects" ref={this.blocks[3]}>
               <h1 className="block-title">Projects</h1>
+              <ProjectBlock image={ali_siamese}>
+                <i>Mar. 2019 - Now</i>
+                <h3 >Semi-Supervised Siamese Generative Adversarial Network  </h3>
+                <p style={{ margin: 0 }}>
+                  Siamese networks are widely used in the scenario where the number of the classes is extremely large, for example face recognition. However, there are few works integrating Siamese structure into GAN and empowering it to learn from unlabeled data. This project aims to find a stable and simple solution to this end.
+                </p>
+              </ProjectBlock>
+              <ProjectBlock image={fabric_labeling}>
+                <i>Jan. 2019 - Jun. 2019</i>
+                <h3 > Fabric Texture Flaws Detection/Segmentation Crowdsourcing Labeling System  </h3>
+                <p style={{ margin: 0 }}>
+                  Fabric texture flaw images are hard to collect. They are rare in production and can only be collected by experienced workers in the scene. This system is built to boost the data collecting process. The system consists of Android front-end (taking pictures in product envrionment and labeling roughly), Web front-end (labeling and data management, built by React.js), node.js back-end.
+                </p>
+              </ProjectBlock>
+              <ProjectBlock image={face_recognition}>
+                <i>Sep. 2018 - Dec. 2018</i>
+                <h3 >Face Recognition System </h3>
+                <p style={{ margin: 0 }}>
+                  This system consists of Windows front-end module and Linux back-end module. The front-end handles the video stream and manage the blacklist and the whitelist, while the back-end serves to detect the human faces and extract the feature vectors.
+                </p>
+              </ProjectBlock>
+              <ProjectBlock image={dqn}>
+                <i>Dec. 2018 - Dec. 2018</i>
+                <h3>Deep Q Learning</h3>
+                <p style={{ margin: 0 }}>
+                  Solve CartPole and Mountain Car problem by implementing Deep Q Learning with <a href="https://github.com/rem2016/priority_memory" target="_blanket">prioritized memory</a> and achieve competitive result on OpenAI Leaderboard.
+                </p>
+              </ProjectBlock>
               <ProjectBlock image={poicare}>
                 <i>Dec. 2016 - Sep. 2017</i>
                 <h3 style={{margin: 0}}>[Undergraduate Thesis]</h3>
