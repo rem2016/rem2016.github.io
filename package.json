@@ -22,7 +22,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build & gh-pages -b gh-pages -o upstream -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build & cp _config.yaml ./build/",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
