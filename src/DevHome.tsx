@@ -208,7 +208,7 @@ class DevHome extends React.Component {
                 <i>Sep. 2018 - Dec. 2018</i>
                 <h3 >Face Recognition System </h3>
                 <p style={{ margin: 0 }}>
-                  This system consists of a Windows front-end module and Linux back-end module. The front-end handles the video stream and manage the blacklist and the whitelist, while the back-end serves to detect the human faces and extract the feature vectors.
+                  A realtime light-weighted face detection and recognition system. This system consists of a Windows front-end module and Linux back-end module. The front-end handles the video stream and manage the blacklist and the whitelist, while the back-end serves to detect the human faces and extract the feature vectors.
                 </p>
               </ProjectBlock>
               <ProjectBlock image={dqn}>
