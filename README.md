@@ -42,3 +42,20 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+Dear Dr.Xiaojuan MaI came to know you from your website and the works in your HCI group attract me.
+
+ I'm a research assistant in Computer School of Fudan University under the supervision of Prof. Mingmin Chi. I'm currently spending my leap year working on face recognition. I obtained B.Eng. degree at Wuhan University (China) in 2018. I was an intern in Big Data Mining Group in Microsoft Research Asia, supervised by Dr. Borje Karlsson, working on language understanding service. 
+ 
+ I would like to pursue research in HCI, Human-AI collaboration and explainable AI. I'm attracted by infinite potential in human-computer interaction, for which I learnt visualization and front-end tech, and make full use of them on my daily work. I used visualization while working on MSRA to demonstracte benchmark result and explain the black-box model, and built labeling-tool for active learning. I believe that interpretability of AI will serve an important role in future and I'm thrilled to build AI-based HCI applications.
+
+I hope you don’t mind my getting in touch, but I’d like to inquire whether you are currently accepting PhD/Mphil students. If you are, would you willing to talk to me a bit more by email. I have explored your website in detail, and it seems like an excellent fit for me.
+
+I would be grateful if you could please consider my application. 
+
+Here is my website: https://remch183.github.io
+
+Thanking you.
+
+Best,
+Zixuan Chen

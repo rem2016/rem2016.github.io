@@ -10,13 +10,13 @@ import helmet from './res/ih_pj.png';
 import fudan_icon from './res/fudan.png';
 import poicare from './res/poicare.png';
 import xiaom from './res/xiaom.jpg';
-import fabric_labeling from './res/fabric_flaw_labeling.png';
-import ali_siamese from './res/AliBasedSiamese.png';
-import face_recognition from './res/FaceRecognition.png';
-import dqn from './res/DQN.png';
 import { Row, Col } from 'antd';
 
 
+const ali_siamese = "https://i.postimg.cc/3Rd2j45W/Ali-Based-Siamese-4d3767c1.png";
+const dqn = "https://i.postimg.cc/ZK0X9jMh/DQN-ac6a23e8.png";
+const fabric_labeling = "https://i.postimg.cc/hGM01RXZ/fabric-flaw-labeling-982c2277.png";
+const face_recognition = "https://i.postimg.cc/xCMMFr8S/Face-Recognition-e8b2aa9f.png";
 const items = [
   { href: 'about', title: 'About' },
   { href: 'education', title: 'Education' },
@@ -149,12 +149,12 @@ class DevHome extends React.Component {
               <br />
               <div style={{ padding: 10 }}>
                 <p>
-                  I'm a research assistant in Computer School of Fudan University under the supervision
-                  of Prof. <a href="https://www.linkedin.com/in/mingmin-chi-84a81515/?originalSubdomain=cn">Mingmin Chi</a>.
-                  I'm currently working on face recognition. I obtained B.Eng. degree at Wuhan University (China).
+                  I'm a research assistant in the Computer School of Fudan University under the supervision
+                  of Prof. <a href="http://homepage.fudan.edu.cn/mingmin/">Mingmin Chi</a>.
+                  I'm currently working on face recognition. I obtained a B.Eng. Degree at Wuhan University (China).
                 </p>
                 <p>
-                  I was an intern in Big Data Mining Group in Microsoft Research Asia, supervised by Dr. <a href="https://www.microsoft.com/en-us/research/people/borjekar/">Borje Karlsson</a>, working on <a href="https://luis.ai/">language understanding service</a>. My research interests include computer vision, explainable AI and visualization.
+                  I was an intern in Big Data Mining Group in Microsoft Research Asia, supervised by Dr. <a href="https://www.microsoft.com/en-us/research/people/borjekar/">Borje Karlsson</a>, working on <a href="https://luis.ai/">language understanding service</a>. My research interests include computer vision, explainable AI, and visualization.
                 </p>
               </div>
             </div>
@@ -194,21 +194,21 @@ class DevHome extends React.Component {
                 <i>Mar. 2019 - Now</i>
                 <h3 >Semi-Supervised Siamese Generative Adversarial Network  </h3>
                 <p style={{ margin: 0 }}>
-                  Siamese networks are widely used in the scenario where the number of the classes is extremely large, for example face recognition. However, there are few works integrating Siamese structure into GAN and empowering it to learn from unlabeled data. This project aims to find a stable and simple solution to this end.
+                  Siamese networks are widely used in the scenario where the number of classes is vast, for example, face recognition. However, few works are integrating the Siamese structure into GAN and empowering it to learn from unlabeled data. This project aims to find a stable and straightforward solution to this end.
                 </p>
               </ProjectBlock>
               <ProjectBlock image={fabric_labeling}>
                 <i>Jan. 2019 - Jun. 2019</i>
                 <h3 > Fabric Texture Flaws Detection/Segmentation Crowdsourcing Labeling System  </h3>
                 <p style={{ margin: 0 }}>
-                  Fabric texture flaw images are hard to collect. They are rare in production and can only be collected by experienced workers in the scene. This system is built to boost the data collecting process. The system consists of Android front-end (taking pictures in product envrionment and labeling roughly), Web front-end (labeling and data management, built by React.js), node.js back-end.
+                  Fabric texture flaw images are hard to collect. They are rare in production and can only be obtained by experienced workers in the scene. This system is built to boost the data collecting process. The system consists of Android front-end (taking pictures in product environment and labeling roughly), Web front-end (labeling and data management, built by React.js), node.js back-end.
                 </p>
               </ProjectBlock>
               <ProjectBlock image={face_recognition}>
                 <i>Sep. 2018 - Dec. 2018</i>
                 <h3 >Face Recognition System </h3>
                 <p style={{ margin: 0 }}>
-                  This system consists of Windows front-end module and Linux back-end module. The front-end handles the video stream and manage the blacklist and the whitelist, while the back-end serves to detect the human faces and extract the feature vectors.
+                  This system consists of a Windows front-end module and Linux back-end module. The front-end handles the video stream and manage the blacklist and the whitelist, while the back-end serves to detect the human faces and extract the feature vectors.
                 </p>
               </ProjectBlock>
               <ProjectBlock image={dqn}>
@@ -223,21 +223,21 @@ class DevHome extends React.Component {
                 <h3 style={{margin: 0}}>[Undergraduate Thesis]</h3>
                 <h3 > Semantic Similarity Measurement by Jointly Embedding of Knowledge Graph and Words </h3>
                 <p style={{ margin: 0 }}>
-                  This research project proposes a method to enhance the semantic similarity judgment on graphs through joint embdding text information. There are rich hierarchical information among the concept nodes of knowledge graph. This project embeds the graph nodes and words jointly into the Poincaré space that can express hierarchical information better.
+                  This research project proposes a method to enhance the semantic similarity judgment on graphs through joint embedding text information. There is rich hierarchical information among the concept nodes of knowledge graphs. This project embeds the graph nodes and words jointly into the Poincaré space that can express hierarchical details better.
                 </p>
               </ProjectBlock>
               <ProjectBlock image={helmet}>
                 <i>Dec. 2016 - Sep. 2017</i>
                 <h3>Intelligent Helmet</h3>
                 <p style={{ margin: 0 }}>
-                  An IoT device based on the helmet to help worker and the management on the constructionsite.  Won the <b>first prize (10/1500)</b> in 2017 TIIC National Undergraduate IOT Design Contest.  The mainfunctions of this project cover tumble detection (designed by us), voice command, indoorlocalization, live streaming and web visualization.
-                  </p>
+                  An IoT device based on the helmet to help worker and the management on the construction site.  Won the <b>first prize (10/1500)</b> in 2017 TIIC National Undergraduate IOT Design Contest.  The main functions of this project cover tumble detection (designed by us), voice command, indoor localization, live streaming, and web visualization.
+                </p>
               </ProjectBlock>
               <ProjectBlock image={xiaom}>
                 <i>Jun. 2017 - Aug. 2017</i>
                 <h3>Intelligent Chatbot for Wuhan University</h3>
                 <p style={{ margin: 0 }}>
-                  A chatbot that serves students and tourists in the compus, based on NLP and ML.  Won the <b>second prize (3/1100)</b> in 2017 Beautyof Programming
+                  A chatbot that serves students and tourists in the campus, based on NLP and ML.  Won the <b>second prize (3/1100)</b> in 2017 Beauty of Programming
                 </p>
               </ProjectBlock>
             </div>
@@ -276,7 +276,7 @@ class DevHome extends React.Component {
                   <li>Sapiens: A Brief History of Humankind</li>
                   <li>The Three-Body Problem</li>
                   <li>Principles by Ray Dalio</li>
-                  <li>The story of your life</li>
+                  <li>The Story of Your Life</li>
                   <li>The Gods Themselves</li>
                   <li>Dune</li>
                   <li>Game of Thrones</li>
