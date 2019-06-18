@@ -219,7 +219,7 @@ class DevHome extends React.Component {
                 </p>
               </ProjectBlock>
               <ProjectBlock image={poicare}>
-                <i>Dec. 2016 - Sep. 2017</i>
+                <i>Dec. 2017 - May. 2018</i>
                 <h3 style={{margin: 0}}>[Undergraduate Thesis]</h3>
                 <h3 > Semantic Similarity Measurement by Jointly Embedding of Knowledge Graph and Words </h3>
                 <p style={{ margin: 0 }}>
