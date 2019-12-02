@@ -17,6 +17,7 @@ const ali_siamese = "https://i.postimg.cc/3Rd2j45W/Ali-Based-Siamese-4d3767c1.pn
 const dqn = "https://i.postimg.cc/ZK0X9jMh/DQN-ac6a23e8.png";
 const fabric_labeling = "https://i.postimg.cc/hGM01RXZ/fabric-flaw-labeling-982c2277.png";
 const face_recognition = "https://i.postimg.cc/xCMMFr8S/Face-Recognition-e8b2aa9f.png";
+const pomodoro_logger = "https://i.postimg.cc/hvjXfB94/icon.png";
 const items = [
   { href: 'about', title: 'About' },
   { href: 'education', title: 'Education' },
@@ -190,8 +191,22 @@ class DevHome extends React.Component {
 
             <div className="home-block" id="projects" ref={this.blocks[3]}>
               <h1 className="block-title">Projects</h1>
+              <ProjectBlock image={pomodoro_logger} link={"https://github.com/zxch3n/PomodoroLogger"}>
+                <i>Jul. 2019 - Now</i>
+                <h3 >Pomodoro Logger  </h3>
+                <p style={{ margin: 0 }}>
+                  <a href="https://github.com/zxch3n/PomodoroLogger">Pomodoro Logger</a> is a cross-platform productivity tool.
+                  <ul>
+                    <li>Use Pomodoro Technique to manage your time</li>
+                    <li>Collect and visualize your desktop working activities, i.e., the names and titles of the using apps, <b>locally</b></li>
+                    <li>Use integrated Kanban Board to make your schedule control easier</li>
+                    <li>Integrate efficiency analysis</li>
+                    <li>Infer the project you are working on</li>
+                  </ul>
+                </p>
+              </ProjectBlock>
               <ProjectBlock image={ali_siamese}>
-                <i>Mar. 2019 - Now</i>
+                <i>Mar. 2019 - Aug. 2019</i>
                 <h3 >Semi-Supervised Siamese Generative Adversarial Network  </h3>
                 <p style={{ margin: 0 }}>
                   Siamese networks are widely used in the scenario where the number of classes is vast, for example, face recognition. However, few works are integrating the Siamese structure into GAN and empowering it to learn from unlabeled data. This project aims to find a stable and straightforward solution to this end.

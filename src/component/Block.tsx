@@ -2,6 +2,7 @@ import React from 'react';
 import "./Block.css";
 
 interface BlockProps {
+    link?: string;
     image: string;
     width?: number;
     height?: number;
@@ -53,16 +54,28 @@ class ProjectBlock extends Block {
     }
 
     render() {
-        const { image, width = 220, height = 220, children } = this.props;
+        const { link, image, width = 220, height = 220, children } = this.props;
         const {smallScreen} = this.state;
         return (
             <div className="dis_block">
                 <div style={{width, height}}>
-                <img src={image} style={{
-                    height,
-                    width,
-                    display: smallScreen ? 'block' : 'inline-block',
-                }} />
+                    {
+                        link ? (
+                            <a href={link} target="_blank">
+                                <img src={image} style={{
+                                    height,
+                                    width,
+                                    display: smallScreen ? 'block' : 'inline-block',
+                                }} />
+                            </a>
+                        ) : (
+                                <img src={image} style={{
+                                    height,
+                                    width,
+                                    display: smallScreen ? 'block' : 'inline-block',
+                                }} />
+                            )
+                    }
                 </div>
                 <div className="dis_children">
                     {children}
