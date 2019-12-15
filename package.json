@@ -1,5 +1,5 @@
 {
-  "name": "rem2016.github.io",
+  "name": "zxch3n.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,12 +15,13 @@
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.0",
     "react-scripts": "3.0.0",
+    "react-typed": "^1.2.0",
     "typescript": "3.4.5",
     "webfontloader": "^1.6.28"
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build & gh-pages -b gh-pages -o upstream -d build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build & cp _config.yaml ./build/",
     "test": "react-scripts test",
@@ -41,5 +42,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://rem2016.github.io"
+  "homepage": "https://zxch3n.github.io"
 }

@@ -3,6 +3,7 @@ import './Navigator.css';
 import img from '../res/me.jpg';
 import draw_img from '../res/me1.jpg';
 import {Icon} from 'antd';
+import Typed from 'react-typed';
 
 interface Item {
     title: string;
@@ -82,7 +83,22 @@ class Navigator extends React.Component {
                         href={draw_img} mask="url(#myMask)"/>
                     <circle cx="60" cy="60" r="59" strokeWidth="2" stroke="white" fill="none"/>
                 </svg>
-                <p><span className="username">Zixuan Chen</span></p>
+                <p className="username">Zixuan Chen</p>
+                <p><span className="role">
+                    <Typed
+                        strings={[
+                            'Front-End Dev',
+                            'Algorithm Engineer',
+                            'AIer',
+                            'Software Engineer',
+                            'Designer',
+                        ]}
+                        typeSpeed={40}
+                        backSpeed={40}
+                        backDelay={2000}
+                        loop={true}
+                    />
+                </span></p>
 
                 <div style={{ height: 0, borderBottom: '1px solid rgba(0, 0, 0, 0.2)', margin: 40 }} />
 
@@ -110,7 +126,7 @@ class Navigator extends React.Component {
                 <div style={{ height: 0, borderBottom: '1px solid rgba(0, 0, 0, 0.2)', margin: 40 }} />
 
                 <div className="contact">
-                    <Contact alt="github" href="https://github.com/rem2016"/>
+                    <Contact alt="github" href="https://github.com/zxch3n"/>
                     <Contact alt="linkedin" href="https://www.linkedin.com/in/z1xuanch3n/" />
                     <Contact alt="mail" href="mailto:remch183@outlook.com" />
                 </div>

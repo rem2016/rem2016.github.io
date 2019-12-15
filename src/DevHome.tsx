@@ -150,9 +150,13 @@ class DevHome extends React.Component {
               <br />
               <div style={{ padding: 10 }}>
                 <p>
-                  I'm a research assistant in the Computer School of Fudan University under the supervision
+                  The technology world profoundly attracts me. 
+                  I want to have a grasp of most of the essential tech before starting the real journey. For the past few years, I've worked on many different topics, such as natural language processing, computer vision, knowledge graph, front-end development, visualization, software engineering, and so on. My goal is to combine the goods of them and build things that matter.
+                </p>
+                <p>
+                  I was a research assistant at the Computer School of Fudan University under the supervision
                   of Prof. <a href="http://homepage.fudan.edu.cn/mingmin/">Mingmin Chi</a>.
-                  I'm currently working on face recognition. I obtained a B.Eng. Degree at Wuhan University (China).
+                  I obtained a B.Eng. Degree at Wuhan University (China).
                 </p>
                 <p>
                   I was an intern in Big Data Mining Group in Microsoft Research Asia, supervised by Dr. <a href="https://www.microsoft.com/en-us/research/people/borjekar/">Borje Karlsson</a>, working on <a href="https://luis.ai/">language understanding service</a>. My research interests include computer vision, explainable AI, and visualization.
@@ -167,7 +171,7 @@ class DevHome extends React.Component {
                   <i>Sep. 2014 - Jul. 2018</i>
                   <h3 style={{ margin: 0 }}>School of Computer Science, Wuhan University</h3>
                   <p style={{ margin: 0 }}>Bachelor of Science</p>
-                  <p style={{ margin: 0 }}><b style={{ color: 'black' }}>GPA: 3.67/4.0</b></p>
+                  <p style={{ margin: 0 }}><b style={{ color: 'black' }}>GPA: 3.67/4.0 (Top 10%)</b></p>
                 </Block>
               </div>
             </div>
@@ -230,7 +234,7 @@ class DevHome extends React.Component {
                 <i>Dec. 2018 - Dec. 2018</i>
                 <h3>Deep Q Learning</h3>
                 <p style={{ margin: 0 }}>
-                  Solve CartPole and Mountain Car problem by implementing Deep Q Learning with <a href="https://github.com/rem2016/priority_memory" target="_blanket">prioritized memory</a> and achieve competitive result on OpenAI Leaderboard.
+                  Solve CartPole and Mountain Car problem by implementing Deep Q Learning with <a href="https://github.com/zxch3n/priority_memory" target="_blanket">prioritized memory</a> and achieve competitive result on OpenAI Leaderboard.
                 </p>
               </ProjectBlock>
               <ProjectBlock image={poicare}>
