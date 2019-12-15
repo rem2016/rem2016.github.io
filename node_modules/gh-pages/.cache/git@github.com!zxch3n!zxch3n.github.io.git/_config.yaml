@@ -1,0 +1,4 @@
+title: Zixuan Chen's Site
+logo: /icon.png
+plugins:
+  - jekyll-seo-tag
